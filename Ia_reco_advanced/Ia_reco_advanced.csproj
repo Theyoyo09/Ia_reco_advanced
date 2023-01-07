@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AForge.Video.DirectShow" Version="2.2.5" />
+		<PackageReference Include="Microsoft.ML" Version="1.6.0" />
+		<PackageReference Include="Microsoft.ML.ImageAnalytics" Version="1.6.0" />
+		<PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.8.1" />
+		<PackageReference Include="Microsoft.ML.OnnxTransformer" Version="1.6.0" />
+	</ItemGroup>
+</Project>
